@@ -7,4 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Specify the output directory
   },
+  server: {
+    host: true, // This makes the server accessible from other devices on the network
+  },
 });
